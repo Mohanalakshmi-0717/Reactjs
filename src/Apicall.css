@@ -1,0 +1,31 @@
+.api{
+    color: blue;
+}
+
+.price{
+    color: brown;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+nav{
+    margin: 20px;
+    padding-left: 20px;
+    background-color: rgb(0, 213, 255);
+    text-align: center;
+    
+}
+
+.linktag{
+     padding: 20px;
+     font-size: 2rem;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color:#d70692c7;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    
+}

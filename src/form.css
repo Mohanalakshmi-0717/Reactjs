@@ -1,0 +1,16 @@
+.form-container{
+   
+   text-align: center;
+  
+}
+button{
+    background-color: azure;
+    border-radius: 10px;
+    border-width: 0.5rem;
+    border-color: aquamarine;
+}
+
+input{
+    border-radius: 3px;
+    height: 20px;
+}
