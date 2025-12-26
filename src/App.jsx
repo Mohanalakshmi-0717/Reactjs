@@ -5,7 +5,7 @@ import Apicall from "./Apicall";
 import Lifecycle from "./Lifecycle";
 import Apicallhook from "./Apicallhook";
 import Form from "./Form";
-import Reacthookform from "./reacthookform";
+import Reacthookform from "./Reacthookform";
 import Home from "../Home";
 import { BrowserRouter,Routes,Route,Link } from "react-router";
 import Movie from "./Movie";
@@ -64,6 +64,7 @@ function App(){
       <Route path="/about" element={<About/>}/>
     </Routes> */}
      {/* <Todolist/> */}
+     {/* <Reacthookform/> */}
      
     </div>
     
