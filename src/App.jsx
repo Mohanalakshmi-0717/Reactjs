@@ -30,7 +30,7 @@ function App(){
     <h2>Welcome</h2> */}
     {/* <Counter></Counter> */}
     {/* <Names></Names> */}
-    {/* <Apicall></Apicall> */}
+    <Apicall></Apicall>
 
   {/* <nav>
     <Link to="/">Home</Link>
@@ -63,7 +63,7 @@ function App(){
       <Route path="/movie" element={<Movie/>}/>
       <Route path="/about" element={<About/>}/>
     </Routes> */}
-     <Todolist/>
+     {/* <Todolist/> */}
      
     </div>
     

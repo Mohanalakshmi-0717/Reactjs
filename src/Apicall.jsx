@@ -10,14 +10,15 @@ function Apicall(){
         setpostdata(product)
     } 
     return(
-        <div>
-            <h1>Api Call</h1>
-            <button onClick={postapi}>Clickkk Mee!!!</button>
+        <div className="producthome">
+            <h1>Products are Available Here</h1>
+            <button className="product_button" onClick={postapi}>Clickkk Mee!!!</button>
 
             {postdata.map((post)=>(
-                <div>
-                  <h1 className="api"> {post.title}</h1> 
-                  <h3 className="price">{post.price}</h3>
+                <div className="viewpage">
+                    <img className="proimage" src={post.image}/> <br/>
+                  <span className="api"> {post.title}</span><br/>   
+                  <span className="price">{post.price}</span>
                 </div>
                
             ))}
